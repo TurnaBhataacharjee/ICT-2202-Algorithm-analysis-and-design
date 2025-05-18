@@ -7,7 +7,7 @@ void swap(int *a,int *b){
     *b=temp;
 }
 int partion(int a[],int lb,int ub){
-    int pivot=a[0];
+    int pivot=a[lb];
     int s=lb;
     int e=ub;
     while(s<e){
